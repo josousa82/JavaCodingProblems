@@ -51,6 +51,9 @@ public class CountDuplicatesChars {
             result.compute(ch, (k, v) -> (v == null) ? 1 : ++v);
         }
 
+        // refactoring the code
+
+
         return result;
     }
 
